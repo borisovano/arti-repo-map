@@ -16,7 +16,7 @@ Either run and point to remote artifactory repo (see examples section) or choose
 
 # Examples
 
-1. Remote artifactory
+### 1. Get repo info from Remote artifactory
 <br>
 
 ```
@@ -32,7 +32,7 @@ com/mycompany/common/client                          - 169.7GiB        (Total: 7
 com/mycompany/common/AutomationTest                  - 295.4GiB        (Total: 1.0TiB)
 ```
 
-2. Local json (already downloaded)
+### 2. Get repo info from Local json (already downloaded)
 <br>
 
 ```
