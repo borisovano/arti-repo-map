@@ -18,6 +18,7 @@ Either run and point to remote artifactory repo (see examples section) or choose
 
 1. Remote artifactory
 <br>
+
 ```
 python ./arti_parse.py -r www.artifactory.mycompany.com/artifactory/api/storage/libs-snapshot-local?list&deep=1&listFolders=1&mdTimestamps=1 -u myuser -p mypass
 ```
@@ -33,9 +34,11 @@ com/mycompany/common/AutomationTest                  - 295.4GiB        (Total: 1
 
 2. Local json (already downloaded)
 <br>
+
 ```
 python ./arti_parse.py -r /home/user/my_artifactory_data.json
 ```
+
 ```
 -- Some output omitted --
 com/mycompany/tools/platform                         - 64.8GiB         (Total: 420.9GiB)
