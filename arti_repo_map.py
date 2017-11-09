@@ -87,12 +87,10 @@ if __name__ == "__main__":
                         type=str,
                         help="remote repo(artifactory repo info api) url or local path")
     parser.add_argument("-u", "--user",
-                        default="hudson",
                         type=str,
                         dest="repo_user",
                         help="Artifactory user (used in case remote repo url provided)")
     parser.add_argument("-p", "--password",
-                        default="barbapapa",
                         type=str,
                         dest="repo_password",
                         help="Artifactory password (used in case remote repo url provided)")
